@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Page moved</title>
+  <script>
+    var moved = ["momapy_kb"];
+    var first = location.pathname.split("/")[1];
+    if (moved.indexOf(first) !== -1) {
+      location.replace("https://momapy.github.io" + location.pathname
+                       + location.search + location.hash);
+    }
+  </script>
+</head>
+<body>
+  <p>Page not found.</p>
+</body>
+</html>
